@@ -1,0 +1,64 @@
+body {
+    font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+    min-width: 320px;
+    font-size: 14px;
+}
+
+label {
+    text-align: right;
+    width: 100px;
+    display: inline-block;
+}
+
+fieldset {
+    max-width: 600px;
+    margin: 20px auto 0 auto;
+    padding: 10px;
+    display: block;
+    border-radius: 7px;
+}
+
+input, .form-check-label {
+    width: calc(100% - 130px);
+    margin-left: 10px;
+    text-align: left;
+}
+
+.form-group {
+    margin: 5px auto;
+}
+
+#submit-btn {
+    margin: 10px auto 0 auto;
+    display: block;
+}
+
+.form-check-input {
+    text-align: right;
+    display: inline-block;
+}
+
+.checkbox-container {
+    text-align: right;
+    width: 100px;
+    display: inline-block;
+}
+
+.checkbox-container, .form-check-label {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.form-check-label {
+    padding: 0 10px;
+}
+
+.personal {
+    display: table;
+    width: 100%;
+}
+
+#search-error {
+    color: #ff0000;
+    text-align: center;
+}
